@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+* eol=lf
+*.html linguist-generated
+*.md linguist-generated
