@@ -22,7 +22,7 @@ app.commandLine.appendSwitch('enable-webgl')
 
 const createWindow = async () => {
 	win = new BrowserWindow({
-		title: 'Lucast',
+		title: 'Recorder',
 		width: 1420,
 		height: 720,
 		minWidth: 1040,

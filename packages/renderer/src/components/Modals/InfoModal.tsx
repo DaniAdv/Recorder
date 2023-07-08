@@ -6,14 +6,14 @@ import Banner from '/img/Cover.png'
 
 const InfoModal = ({ onClose }: ICModalProps) => {
 	return (
-		<Modal title="About Lucast" isOpen={true} onClose={onClose} Footer={<Footer />}>
+		<Modal title="About Recorder" isOpen={true} onClose={onClose} Footer={<Footer />}>
 			<div className={style.infoModal}>
 				<div className={style.infoModalPreview}>
 					<img src={Banner} />
 				</div>
 				<div className={style.infoModalContent}>
 					<p className={style.infoModalContentText}>
-						<b>Lucast</b> is a free screen-recording application for Windows, macOS, and
+						<b>Recorder</b> is a free screen-recording application for Windows, macOS, and
 						Linux. Capture how you work, how you play, how you do anything, and share it
 						with the world in a simple way!
 					</p>
@@ -94,7 +94,7 @@ const InfoModal = ({ onClose }: ICModalProps) => {
 							<b>Featuring FFmpeg and FFprobe!</b> It&apos;s a huge change for the
 							quality of recorded videos and configuration! FFmpeg helps to handle
 							video, audio, and other multimedia files and streams. What does it mean
-							for Lucast? Now you have a wide variety of formats to choose from, you
+							for Recorder? Now you have a wide variety of formats to choose from, you
 							can set a resolution that differs from your native, you can customize
 							your recorder videos frame rate, and you can configure the volume of
 							your audio! Whatever you choose, the quality of the output video will be
@@ -106,7 +106,7 @@ const InfoModal = ({ onClose }: ICModalProps) => {
 							fancier control buttons at the bottom and a menu to the left!
 						</li>
 						<li>
-							<b>New face.</b> Now Lucast has its own face! A brand new unique logo
+							<b>New face.</b> Now Recorder has its own face! A brand new unique logo
 							should fit well!
 						</li>
 						<li>

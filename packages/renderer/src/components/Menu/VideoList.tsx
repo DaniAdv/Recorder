@@ -21,7 +21,7 @@ const VideoList = () => {
 	return (
 		<div className={style.videoList}>
 			<h3 className={style.listTabHeader}>
-				Your recordings
+				Your recordings version new
 				<br />
 				<small onClick={openFolder}>{videosPath}</small>
 			</h3>

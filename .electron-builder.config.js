@@ -3,8 +3,8 @@
  * @see https://www.electron.build/configuration/configuration
  */
 module.exports = {
-	appId: 'com.paxanddos.lucast',
-	productName: 'Lucast',
+	appId: 'com.dani.recorder',
+	productName: 'Recorder',
 	asar: true,
 	copyright: 'Copyright © 2022 ${author}',
 	directories: { buildResources: 'build', output: 'release/${version}' },
@@ -26,12 +26,12 @@ module.exports = {
 		electronLanguages: ['en'],
 		extendInfo: {
 			'Bundle name': '${productName}',
-			'com.apple.application-identifier': 'paxanddos.github.io',
-			'com.apple.developer.team-identifier': 'paxanddos',
-			ElectronTeamID: 'paxanddos',
+			'com.apple.application-identifier': 'qdani.github.io',
+			'com.apple.developer.team-identifier': 'qdani',
+			ElectronTeamID: 'qdani',
 			LSHasLocalizedDisplayName: true,
 		},
-		identity: 'PAXANDDOS Individual Co.',
+		identity: 'Dani Individual Co.',
 		target: ['dmg'],
 	},
 	dmg: {

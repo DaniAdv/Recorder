@@ -12,7 +12,7 @@ const InfoFooter = () => {
 			</a>
 			<span>
 				Copyright © 2022{' '}
-				<a href="https://paxanddos.github.io/" target="_blank" rel="noreferrer">
+				<a href="https://dlupu.com/" target="_blank" rel="noreferrer">
 					Dani
 				</a>
 				. All rights reserved.

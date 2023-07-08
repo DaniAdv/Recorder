@@ -26,7 +26,7 @@ const UpdateBlock = () => {
 		updateRef.current.className = style.spinAnimation
 
 		const response = await fetch(
-			'https://api.github.com/repos/paxanddos/lucast-electron/releases/latest'
+			'https://api.github.com/repos/qdani/recorder/releases/latest'
 		)
 		const release = await response.json()
 		release.tag_name = release.tag_name.substring(1)
@@ -62,7 +62,7 @@ const UpdateBlock = () => {
 				ext = 'AppImage'
 				break
 		}
-		const userAsset = `Lucast-${suffix}.${ext}`
+		const userAsset = `Recorder-${suffix}.${ext}`
 		let path = 'link'
 
 		release.assets.forEach(function (asset: any) {

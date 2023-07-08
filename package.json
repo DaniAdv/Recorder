@@ -1,10 +1,10 @@
 {
-	"name": "lucast-electron",
-	"productName": "Lucast",
-	"version": "2.1.0",
+	"name": "recorder",
+	"productName": "Recorder",
+	"version": "2.3.0",
 	"private": true,
-	"description": "Lucast is a free screen-recording application for Windows, macOS, and Linux build with Electron and React.",
-	"author": "Paul Litovka <pashalitovka@gmail.com>",
+	"description": "Recorder is a free screen-recording application for Windows, macOS, and Linux build with Electron and React.",
+	"author": "Daniel Lupu <daniellupu540@gmail.com>",
 	"license": "MIT",
 	"packageManager": "pnpm@7.3.0",
 	"main": "dist/main/index.cjs",
@@ -22,12 +22,12 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/PAXANDDOS/lucast-electron.git"
+		"url": "git+https://github.com/qDani/Recorder.git"
 	},
 	"bugs": {
-		"url": "https://github.com/PAXANDDOS/lucast-electron/issues"
+		"url": "https://github.com/qDani/Recorder/issues"
 	},
-	"homepage": "https://github.com/PAXANDDOS/lucast-electron#readme",
+	"homepage": "https://github.com/qDani/Recorder#readme",
 	"scripts": {
 		"dev": "node scripts/watch.mjs",
 		"build": "node scripts/build.mjs && electron-builder --config .electron-builder.config.js",
