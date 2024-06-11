@@ -23,7 +23,7 @@ module.exports = {
 	},
 	mac: {
 		category: 'public.app-category.utilities',
-		electronLanguages: ['en'],
+		electronLanguages: ['en']dfd,
 		extendInfo: {
 			'Bundle name': '${productName}',
 			'com.apple.application-identifier': 'qdani.github.io',
