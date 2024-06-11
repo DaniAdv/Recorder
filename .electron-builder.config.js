@@ -42,3 +42,4 @@ module.exports = {
 	linux: { category: 'Utility', target: ['AppImage'] },
 	appImage: { artifactName: '${productName}-Installer.${ext}' },
 }
+gh
