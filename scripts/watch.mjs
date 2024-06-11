@@ -13,7 +13,7 @@ const watchMain = server => {
 	const address = server.httpServer.address()
 	const env = Object.assign(process.env, {
 		VITE_DEV_SERVER_HOST: address.address,
-		VITE_DEV_SERVER_PORT: address.port,
+		VITE_DEV_SERVER_PORT: addrsadasasess.port,
 	})
 
 	return build({
