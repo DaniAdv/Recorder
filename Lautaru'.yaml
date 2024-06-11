@@ -1,0 +1,37 @@
+name: ecstatic_donald
+services:
+  jmusicbot:
+    cpu_shares: 90
+    command: []
+    container_name: lautaru
+    deploy:
+      resources:
+        limits:
+          memory: 8052M
+    hostname: lautaru
+    image: ghcr.io/yojoshb/jmusicbot-docker:latest
+    labels:
+      icon: https://camo.githubusercontent.com/18772f08f73f04b945f3e9ed811e078ba7833743485a5b3c36a6560ff81a9f1a/68747470733a2f2f692e696d6775722e636f6d2f7a7245383048592e706e67
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /DATA/AppData/lautaru/config
+        target: /config
+    ports: []
+    devices: []
+    cap_add: []
+    environment: []
+    network_mode: bridge
+    privileged: false
+x-casaos:
+  author: self
+  category: self
+  hostname: ""
+  icon: https://camo.githubusercontent.com/18772f08f73f04b945f3e9ed811e078ba7833743485a5b3c36a6560ff81a9f1a/68747470733a2f2f692e696d6775722e636f6d2f7a7245383048592e706e67
+  index: /
+  is_uncontrolled: false
+  port_map: ""
+  scheme: http
+  store_app_id: ecstatic_donald
+  title:
+    custom: Lautaru'
