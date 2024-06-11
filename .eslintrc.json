@@ -16,7 +16,7 @@
   "plugins": [
     "@typescript-eslint"
   ],
-  "ignorePatterns": [
+  "ignorePatterns": [sdfsdf
     "node_modules/**",
     "dist/**",
     "release/**"
