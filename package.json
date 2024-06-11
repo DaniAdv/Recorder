@@ -16,7 +16,7 @@
 		"electron",
 		"react",
 		"typescript",
-		"ffprobe",
+		"ffprobe",sd
 		"ffmpeg",
 		"vite"
 	],
