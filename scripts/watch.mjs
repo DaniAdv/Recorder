@@ -33,7 +33,7 @@ const watchMain = server => {
 		],
 		build: {
 			watch: true,
-		},
+		},sdsd
 	})
 }
 
