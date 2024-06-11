@@ -33,6 +33,7 @@ Download the latest release in the releases tab or below:
 Or visit the [releases page](https://github.com/qdani/recorder/releases) to download any other version and read the changelog.  
 _Lucast has its own **updater**, so you won't need to check this page for new releases. Just click one button and if there is an update - Lucast will install it for you!_
 
+test
 ## :framed_picture: Screenshots
 
 ![](https://raw.githubusercontent.com/PAXANDDOS/PAXANDDOS/main/lucast/screenshots/default.png)
